@@ -20,6 +20,7 @@ public class Hotel {
 		
 		driver=new ChromeDriver(); 
 		driver.get("https://adactinhotelapp.com/");
+		System.out.println("Hello");
 		
 	}
 	
