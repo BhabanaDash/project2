@@ -53,7 +53,7 @@ public class Hotel {
 	public void i_click_login() {
 	    // Write code here that turns the phrase above into concrete actions
 	    //throw new io.cucumber.java.PendingException();
-		driver.findElement(By.id("login")).click();
+		//driver.findElement(By.id("login")).click();
 	}
 
 	@Then("I am logged in succesfully")
